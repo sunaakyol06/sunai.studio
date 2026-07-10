@@ -1,0 +1,559 @@
+{
+  "overrides": {
+    "g-zellik-nail-art": {
+      "order": [
+        "user-1783688532193-0",
+        "user-1783688564820-0",
+        "user-1783688522086-0",
+        "user-1783688815240-0"
+      ],
+      "hidden": [],
+      "titles": {},
+      "added": [
+        {
+          "id": "user-1783688512002-0",
+          "type": "image",
+          "src": "https://res.cloudinary.com/qr6eb0sj/image/upload/v1783688514/sunai/g-zellik-nail-art/1783688510898-photo5947169987493563948yjpg.jpg",
+          "title": "photo_5947169987493563948_y",
+          "ratio": "3:4"
+        },
+        {
+          "id": "user-1783688522086-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688523/sunai/g-zellik-nail-art/1783688518356-document5947169987033569951mp4.mp4",
+          "title": "document_5947169987033569951",
+          "ratio": "16:9"
+        },
+        {
+          "id": "user-1783688532193-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688534/sunai/g-zellik-nail-art/1783688529445-document5947169987033569957mp4.mp4",
+          "title": "document_5947169987033569957",
+          "ratio": "16:9"
+        },
+        {
+          "id": "user-1783688564820-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688566/sunai/g-zellik-nail-art/1783688560496-document5947169987033569962mp4.mp4",
+          "title": "document_5947169987033569962",
+          "ratio": "16:9"
+        },
+        {
+          "id": "user-1783688815240-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688817/sunai/g-zellik-nail-art/1783688811740-document5947169987033569961mp4.mp4",
+          "title": "document_5947169987033569961",
+          "ratio": "16:9"
+        }
+      ]
+    },
+    "ayakkabi-canta": {
+      "order": [
+        "ayakkabi-1",
+        "ayakkabi-2",
+        "user-1783688729510-0",
+        "user-1783688746418-0",
+        "user-1783688756485-0",
+        "user-1783688766485-0",
+        "user-1783688780910-0"
+      ],
+      "hidden": [],
+      "titles": {},
+      "added": [
+        {
+          "id": "user-1783688729510-0",
+          "type": "image",
+          "src": "https://res.cloudinary.com/qr6eb0sj/image/upload/v1783688731/sunai/ayakkabi-canta/1783688728601-photo5947169987493563949yjpg.jpg",
+          "title": "photo_5947169987493563949_y",
+          "ratio": "3:4"
+        },
+        {
+          "id": "user-1783688746418-0",
+          "type": "image",
+          "src": "https://res.cloudinary.com/qr6eb0sj/image/upload/v1783688748/sunai/ayakkabi-canta/1783688745521-photo5947169987493563946yjpg.jpg",
+          "title": "photo_5947169987493563946_y",
+          "ratio": "3:4"
+        },
+        {
+          "id": "user-1783688756485-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688758/sunai/ayakkabi-canta/1783688753999-document5947169987033569953mp4.mp4",
+          "title": "document_5947169987033569953",
+          "ratio": "16:9"
+        },
+        {
+          "id": "user-1783688766485-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688768/sunai/ayakkabi-canta/1783688763573-document5947169987033569956mp4.mp4",
+          "title": "document_5947169987033569956",
+          "ratio": "16:9"
+        },
+        {
+          "id": "user-1783688780910-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688782/sunai/ayakkabi-canta/1783688777399-document5947169987033569963mp4.mp4",
+          "title": "document_5947169987033569963",
+          "ratio": "16:9"
+        }
+      ]
+    },
+    "taki-kozmetik": {
+      "order": [
+        "taki-1",
+        "taki-2",
+        "user-1783688834796-0",
+        "user-1783688841641-0",
+        "user-1783688860446-0"
+      ],
+      "hidden": [],
+      "titles": {},
+      "added": [
+        {
+          "id": "user-1783688834796-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688835/sunai/taki-kozmetik/1783688830585-document5947169987033569949mp4.mp4",
+          "title": "document_5947169987033569949",
+          "ratio": "16:9"
+        },
+        {
+          "id": "user-1783688841641-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688843/sunai/taki-kozmetik/1783688839157-document5947169987033569948mp4.mp4",
+          "title": "document_5947169987033569948",
+          "ratio": "16:9"
+        },
+        {
+          "id": "user-1783688860446-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688862/sunai/taki-kozmetik/1783688856606-document5947169987033569954mp4.mp4",
+          "title": "document_5947169987033569954",
+          "ratio": "16:9"
+        }
+      ]
+    },
+    "gelinlik-abiye": {
+      "order": [
+        "gelinlik-1",
+        "gelinlik-2",
+        "user-1783688880780-0"
+      ],
+      "hidden": [],
+      "titles": {},
+      "added": [
+        {
+          "id": "user-1783688880780-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783688882/sunai/gelinlik-abiye/1783688876617-document5947169987033569950mp4.mp4",
+          "title": "document_5947169987033569950",
+          "ratio": "16:9"
+        }
+      ]
+    },
+    "yiyecek-i-ecek": {
+      "order": [
+        "user-1783689134860-0",
+        "user-1783689144908-0",
+        "user-1783689156441-0"
+      ],
+      "hidden": [],
+      "titles": {},
+      "added": [
+        {
+          "id": "user-1783689134860-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783689137/sunai/yiyecek-i-ecek/1783689132524-document5947169987033569958mp4.mp4",
+          "title": "document_5947169987033569958",
+          "ratio": "16:9"
+        },
+        {
+          "id": "user-1783689144908-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783689147/sunai/yiyecek-i-ecek/1783689141889-document5947169987033569959mp4.mp4",
+          "title": "document_5947169987033569959",
+          "ratio": "16:9"
+        },
+        {
+          "id": "user-1783689156441-0",
+          "type": "video",
+          "src": "https://res.cloudinary.com/qr6eb0sj/video/upload/v1783689157/sunai/yiyecek-i-ecek/1783689152161-document5947169987033569960mp4.mp4",
+          "title": "document_5947169987033569960",
+          "ratio": "16:9"
+        }
+      ]
+    }
+  },
+  "custom": [
+    {
+      "slug": "g-zellik-nail-art",
+      "name": "Güzellik & Nail Art",
+      "tagline": "Kozmetik ve güzellik markaları için estetik, premium ve dikkat çekici reklam görselleri ile dijital kampanya içerikleri üretiyoruz.",
+      "cover": "https://res.cloudinary.com/qr6eb0sj/image/upload/v1783688414/sunai/covers/1783688410107-photo5947169987493563948yjpg.jpg",
+      "accent": "#800f1b"
+    },
+    {
+      "slug": "yiyecek-i-ecek",
+      "name": "Yiyecek & İçecek",
+      "tagline": "Lezzeti sadece sunmuyor, görsel bir deneyime dönüştürüyoruz. Yapay zekâ destekli premium prodüksiyonlarla yiyecek ve içecek markalarına dikkat çeken reklam görselleri, videolar ve dijital kampanyalar üretiyoruz.",
+      "cover": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1000&auto=format&fit=crop",
+      "accent": "#800f1b"
+    }
+  ],
+  "settings": {
+    "logo": "sunai.studio",
+    "whatsapp": "+905446732031",
+    "phone": "+905446732031",
+    "email": "sunaakyol06@gmail.com",
+    "address": "pursaklar /Ankara",
+    "socials": {
+      "instagram": "https://instagram.com/sunai.studio",
+      "vimeo": "https://vimeo.com/sunai",
+      "youtube": "https://youtube.com/@sunai.studio"
+    },
+    "hero": {
+      "title": {
+        "tr": "Lüks Moda Markaları İçin Yapay Zekâ Görsel Prodüksiyonu",
+        "en": "Luxury AI Visual Production for Fashion Brands"
+      },
+      "subtitle": {
+        "tr": "Kusursuz estetik, sınırsız mekân ve üst düzey kreatif vizyon. Kampanyalarınızı, kataloglarınızı ve ticari videolarınızı yapay zekânın gücüyle lüks standartlarda yeniden tanımlıyoruz.",
+        "en": "Impeccable aesthetics, infinite locations, and high-end creative vision. We redefine your campaigns, lookbooks, and commercial videos to luxury standards using the power of AI."
+      },
+      "cta": {
+        "tr": "Koleksiyonu Keşfet",
+        "en": "Explore Collections"
+      },
+      "badge": {
+        "tr": "YAPAY ZEKÂ KREATİF STÜDYOSU",
+        "en": "AI CREATIVE STUDIO"
+      },
+      "mediaType": "image",
+      "mediaSrc": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=800&auto=format&fit=crop"
+    },
+    "showcaseHeader": {
+      "title": {
+        "tr": "Showcase / Portfolyo",
+        "en": "Showcase / Portfolio"
+      },
+      "subtitle": {
+        "tr": "Lüks moda, mücevher ve kozmetik markaları için yapay zeka ile hayata geçirdiğimiz reklam ve kampanya çalışmaları.",
+        "en": "AI-powered campaigns and editorial lookbooks designed for high-end fashion, jewelry, and cosmetics brands."
+      }
+    },
+    "servicesHeader": {
+      "title": {
+        "tr": "Hizmetlerimiz",
+        "en": "Our Services"
+      },
+      "subtitle": {
+        "tr": "Markanızın prestijini en üst seviyeye taşıyacak dijital sanat ve prodüksiyon çözümleri.",
+        "en": "Digital art and production solutions designed to elevate your brand's prestige to the highest tier."
+      }
+    },
+    "services": [
+      {
+        "id": "service-1",
+        "title": {
+          "tr": "AI Ürün Fotoğrafçılığı",
+          "en": "AI Product Photography"
+        },
+        "desc": {
+          "tr": "Kozmetik, mücevher ve hazır giyim ürünleriniz için stüdyo maliyeti olmadan, dünyanın en prestijli mekanlarında yüksek çözünürlüklü sanatsal çekimler.",
+          "en": "High-resolution artistic shoots for cosmetics, jewelry, and ready-to-wear products in the world's most prestigious locations—without the cost of physical studios."
+        }
+      },
+      {
+        "id": "service-2",
+        "title": {
+          "tr": "AI Reklam Videoları",
+          "en": "AI Commercial Videos"
+        },
+        "desc": {
+          "tr": "Moda markaları için sinematik, akıcı ve büyüleyici video kampanyaları. Sosyal medya, web siteniz ve dijital billboardlar için özel formatlar.",
+          "en": "Cinematic, fluid, and mesmerizing video campaigns for fashion brands. Custom formats tailored for social media, websites, and digital billboards."
+        }
+      },
+      {
+        "id": "service-3",
+        "title": {
+          "tr": "AI Moda Kampanyaları",
+          "en": "AI Fashion Campaigns"
+        },
+        "desc": {
+          "tr": "Sezon koleksiyonlarınız için hayal gücünüzün sınırlarını aşan konseptlerde, lüks dergi editöryali kalitesinde editoryal kampanya çekimleri.",
+          "en": "Editorial campaign shoots of luxury magazine quality, set in concepts that exceed the limits of imagination for your seasonal collections."
+        }
+      },
+      {
+        "id": "service-4",
+        "title": {
+          "tr": "Sosyal Medya İçerikleri",
+          "en": "Social Media Content"
+        },
+        "desc": {
+          "tr": "Instagram, TikTok ve YouTube Shorts için marka kimliğinizle mükemmel uyumlu, estetik açıdan kusursuz ve yüksek etkileşimli video & görsel serileri.",
+          "en": "Aesthetically perfect and highly engaging video & image series for Instagram, TikTok, and YouTube Shorts, in perfect harmony with your brand identity."
+        }
+      },
+      {
+        "id": "service-5",
+        "title": {
+          "tr": "Dijital Katalog Üretimi",
+          "en": "Digital Catalog Production"
+        },
+        "desc": {
+          "tr": "E-ticaret ve lookbook ihtiyaçlarınız için yapay zekâ modelleriyle hızlı, tutarlı ve premium standartlarda dijital katalog çekimleri.",
+          "en": "Fast, consistent, and premium-quality digital catalog and lookbook shoots featuring AI-generated models for e-commerce and marketing needs."
+        }
+      }
+    ],
+    "whyUsHeader": {
+      "title": {
+        "tr": "Neden Sunai Studio",
+        "en": "Why Sunai Studio"
+      },
+      "subtitle": {
+        "tr": "Fiziksel sınırları ortadan kaldıran yapay zeka teknolojimizle kreatif vizyonunuzu en üst düzeye taşıyoruz.",
+        "en": "We elevate your creative vision by removing physical boundaries using our cutting-edge AI technologies."
+      },
+      "heading": {
+        "tr": "Estetik ve Teknolojinin Kusursuz Birleşimi",
+        "en": "The Perfect Blend of Aesthetics & Technology"
+      }
+    },
+    "whyUsReasons": [
+      {
+        "id": "reason-1",
+        "title": {
+          "tr": "Sınırsız Lokasyon",
+          "en": "Infinite Locations"
+        },
+        "desc": {
+          "tr": "Seyahat ve stüdyo bütçesi olmadan, koleksiyonlarınızı dünyanın en özel mekanlarında veya hayali mimari tasarımlarda fotoğraflayın.",
+          "en": "Showcase your collections in the world's most exclusive locations or imaginary architectural designs without travel or studio expenses."
+        }
+      },
+      {
+        "id": "reason-2",
+        "title": {
+          "tr": "Premium Yapay Zeka Modelleri",
+          "en": "Premium AI Models"
+        },
+        "desc": {
+          "tr": "Markanızın hedef kitlesine en uygun demografik özelliklerde, gerçekçi ve yüksek çözünürlüklü dijital modellerle lookbook hazırlayın.",
+          "en": "Prepare lookbooks featuring realistic, high-resolution digital models tailored to your brand's target demographics."
+        }
+      },
+      {
+        "id": "reason-3",
+        "title": {
+          "tr": "Kusursuz Kumaş & Doku Kalitesi",
+          "en": "Impeccable Fabric & Texture"
+        },
+        "desc": {
+          "tr": "Tasarımlarınızın renk, dikiş ve kumaş dokusu kalitesini 4K çözünürlükte, hiçbir bozulma olmadan detaylıca yansıtıyoruz.",
+          "en": "We represent your designs' colors, stitching, and fabrics in 4K resolution with complete texture accuracy and no distortion."
+        }
+      },
+      {
+        "id": "reason-4",
+        "title": {
+          "tr": "Düşük Maliyet, Hızlı Teslimat",
+          "en": "Low Cost, Fast Delivery"
+        },
+        "desc": {
+          "tr": "Geleneksel reklam prodüksiyonlarında haftalar süren ve milyonlara mal olan süreci günler içinde, bütçe dostu olarak tamamlıyoruz.",
+          "en": "We deliver in days what takes traditional advertising productions weeks and massive budgets to complete, at client-friendly pricing."
+        }
+      }
+    ],
+    "beforeAfter": {
+      "title": {
+        "tr": "İnteraktif Dönüşüm",
+        "en": "Interactive Transformation"
+      },
+      "subtitle": {
+        "tr": "Ham stüdyo çekimlerinin ve taslakların yapay zeka ile lüks dergi kapaklarına dönüşümünü inceleyin.",
+        "en": "See how raw studio captures and drafts convert into high-end editorial campaigns through AI."
+      },
+      "original": {
+        "tr": "Orijinal Çekim",
+        "en": "Original Shoot"
+      },
+      "enhanced": {
+        "tr": "AI Dokunuşu",
+        "en": "AI Enhanced"
+      }
+    },
+    "processHeader": {
+      "title": {
+        "tr": "Çalışma Süreci",
+        "en": "Our Process"
+      },
+      "subtitle": {
+        "tr": "Hayalinizdeki kampanyayı hayata geçirirken izlediğimiz modern ve verimli 4 aşamalı süreç.",
+        "en": "The modern, highly efficient 4-step process we follow to bring your dream campaigns to life."
+      },
+      "heading": {
+        "tr": "Fikirlerden Kampanyalara",
+        "en": "From Concepts to Campaigns"
+      }
+    },
+    "processSteps": [
+      {
+        "id": "step-1",
+        "badge": {
+          "tr": "Adım 01 / Briefing",
+          "en": "Step 01 / Briefing"
+        },
+        "title": {
+          "tr": "Kreatif Brief",
+          "en": "Creative Brief"
+        },
+        "desc": {
+          "tr": "Ürünlerinizi, koleksiyonunuzun konseptini, hedef lokasyonları ve marka estetiğinizi detaylıca analiz ediyoruz.",
+          "en": "We deeply analyze your products, collection concepts, desired locations, and brand aesthetics."
+        }
+      },
+      {
+        "id": "step-2",
+        "badge": {
+          "tr": "Adım 02 / Conceptualization",
+          "en": "Step 02 / Concept"
+        },
+        "title": {
+          "tr": "Konsept Tasarımı",
+          "en": "Concept Design"
+        },
+        "desc": {
+          "tr": "Yapay zeka modellerimizi markanıza özel eğitiyor; mekan, model ve ışık alternatifleri sunan moodboard'lar oluşturuyoruz.",
+          "en": "We train our AI models specifically on your brand; constructing moodboards with alternate locations, models, and light styles."
+        }
+      },
+      {
+        "id": "step-3",
+        "badge": {
+          "tr": "Adım 03 / Production",
+          "en": "Step 03 / Production"
+        },
+        "title": {
+          "tr": "AI Prodüksiyonu",
+          "en": "AI Production"
+        },
+        "desc": {
+          "tr": "Seçilen konseptlerde yüksek çözünürlüklü 4K editoryal görseller ve akıcı video kampanyaları üretiyoruz.",
+          "en": "We generate high-resolution 4K editorial visuals and fluid video campaigns matching the approved concepts."
+        }
+      },
+      {
+        "id": "step-4",
+        "badge": {
+          "tr": "Adım 04 / Delivery",
+          "en": "Step 04 / Delivery"
+        },
+        "title": {
+          "tr": "Final & Teslimat",
+          "en": "Final & Delivery"
+        },
+        "desc": {
+          "tr": "Görsel rötuşlar ve video kurgular tamamlanarak kampanyanızı dijital ve basılı mecralara hazır teslim ediyoruz.",
+          "en": "With final visual retouching and video edits complete, we deliver your campaign ready for digital and print channels."
+        }
+      }
+    ],
+    "testimonialsHeader": {
+      "title": {
+        "tr": "Müşteri Deneyimleri",
+        "en": "Testimonials"
+      },
+      "subtitle": {
+        "tr": "İş birliği yaptığımız lüks segment markaların görüşleri.",
+        "en": "What our luxury segment brand partners say about working with us."
+      }
+    },
+    "testimonials": [
+      {
+        "id": "test-1",
+        "quote": {
+          "tr": "Sunai Studio ile gerçekleştirdiğimiz sezon çekiminde aldığımız sonuçlar büyüleyiciydi. Lokasyon maliyetlerimizi sıfırlayarak lüks segmentte bir iş ortaya koydular.",
+          "en": "The results we achieved for our seasonal shoot with Sunai Studio were mesmerizing. They delivered luxury-grade work while zeroing out our physical location costs."
+        },
+        "author": "Melis Yılmaz",
+        "title": {
+          "tr": "Kreatif Direktör, Maison L'Aura",
+          "en": "Creative Director, Maison L'Aura"
+        }
+      },
+      {
+        "id": "test-2",
+        "quote": {
+          "tr": "Yapay zeka modellerinin inandırıcılığı ve dokuların netliği bizi şaşırttı. Gelinlik koleksiyonumuzu en seçkin saray mekanlarında sergileme fırsatı bulduk.",
+          "en": "We were astonished by the realism of the AI models and texture details. We had the opportunity to showcase our bridal collection in the most exclusive palace settings."
+        },
+        "author": "Ahmet Demir",
+        "title": {
+          "tr": "Kurucu, Demir Bridal",
+          "en": "Founder, Demir Bridal"
+        }
+      }
+    ],
+    "faqsHeader": {
+      "title": {
+        "tr": "Sıkça Sorulan Sorular",
+        "en": "Frequently Asked Questions"
+      },
+      "subtitle": {
+        "tr": "Sunai Studio AI görsel prodüksiyon süreçleri hakkında merak edilenler.",
+        "en": "Frequently asked questions about Sunai Studio AI visual production processes."
+      }
+    },
+    "faqs": [
+      {
+        "id": "faq-1",
+        "q": {
+          "tr": "Ürünlerimizi size nasıl ulaştırıyoruz?",
+          "en": "How do we send our products to you?"
+        },
+        "a": {
+          "tr": "Ürünlerinizin fotoğraflarını whatsapp  üzerinden göndererek  ulaştırabilirsiniz. Her ürün için önden arkadan görsel iletmeniz yeterlidir. Yapay zeka ile profesyonel çekimleri biz gerçekleştiriyoruz.",
+          "en": "You can send high-resolution photos of your products or ship them to our studio. We carry out the professional shoots using AI."
+        }
+      },
+      {
+        "id": "faq-2",
+        "q": {
+          "tr": "Teslimat süreleri ne kadardır?",
+          "en": "What are the delivery times?"
+        },
+        "a": {
+          "tr": "Proje kapsamına göre değişmekle birlikte, geleneksel çekimlerde haftalar süren post-prodüksiyon süreçlerini 3 ila 5 iş günü içinde tamamlıyoruz.",
+          "en": "Varying by project scope, we complete post-production in 3 to 7 business days, bypassing the weeks-long timelines of traditional shoots."
+        }
+      },
+      {
+        "id": "faq-3",
+        "q": {
+          "tr": "Çıktı çözünürlükleri dijital billboardlara uygun mu?",
+          "en": "Are output resolutions suitable for digital billboards?"
+        },
+        "a": {
+          "tr": "Evet, tüm video ve görsel çıktılarimizi 4K ve ultra yüksek çözünürlüklü teslim ediyoruz. Büyük e-ticaret siteleri, sosyal medya ve billboardlar için mükemmel netliktedir.",
+          "en": "Yes, we deliver all video and image outputs in 4K and ultra-high resolutions. They have perfect clarity for major e-commerce platforms, social media, and billboards."
+        }
+      }
+    ],
+    "contactHeader": {
+      "title": {
+        "tr": "Bize Ulaşın",
+        "en": "Contact Us"
+      },
+      "subtitle": {
+        "tr": "Kreatif projeleriniz ve fiyatlandırma seçeneklerimiz hakkında bilgi almak için formu doldurun.",
+        "en": "Fill out the form to inquire about our creative projects and tailored pricing options."
+      },
+      "heading": {
+        "tr": "Bir Proje mi Planlıyorsunuz?",
+        "en": "Planning a Project?"
+      }
+    }
+  }
+}

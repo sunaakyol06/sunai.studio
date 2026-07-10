@@ -1,0 +1,108 @@
+{
+  "Brand": {
+    "name": "sunai.studio",
+    "description": "AI-Powered Visual & Video Production Studio for Luxury Fashion and Creative Brands"
+  },
+  "Nav": {
+    "home": "Home",
+    "work": "Collections",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Start Project"
+  },
+  "Hero": {
+    "title": "Luxury AI Visual Production for Fashion Brands",
+    "subtitle": "Impeccable aesthetics, infinite locations, and high-end creative vision. We redefine your campaigns, lookbooks, and commercial videos to luxury standards using the power of AI.",
+    "cta": "Explore Collections",
+    "badge": "AI CREATIVE STUDIO"
+  },
+  "Showcase": {
+    "title": "Selected Campaigns",
+    "subtitle": "World-class fashion and product campaigns crafted with the creative genius of artificial intelligence.",
+    "explore": "View Campaign Details",
+    "campaign1": "Quiet Luxury - Autumn/Winter",
+    "campaign1Desc": "A fashion narrative woven with minimalist and sophisticated details.",
+    "campaign2": "Golden Radiance - High Jewelry",
+    "campaign2Desc": "Macro photography reflecting the perfect dance of light and gold.",
+    "campaign3": "Pure Cosmetics - Minimal Lines",
+    "campaign3Desc": "Product aesthetics shaped by natural tones and smooth textures."
+  },
+  "Services": {
+    "title": "Our Services",
+    "subtitle": "Digital art and production solutions designed to elevate your brand's prestige to the highest tier.",
+    "service1": "AI Product Photography",
+    "service1Desc": "High-resolution artistic shoots for cosmetics, jewelry, and ready-to-wear products in the world's most prestigious locations—without the cost of physical studios.",
+    "service2": "AI Commercial Videos",
+    "service2Desc": "Cinematic, fluid, and mesmerizing video campaigns for fashion brands. Custom formats tailored for social media, websites, and digital billboards.",
+    "service3": "AI Fashion Campaigns",
+    "service3Desc": "Editorial campaign shoots of luxury magazine quality, set in concepts that exceed the limits of imagination for your seasonal collections.",
+    "service4": "Social Media Content",
+    "service4Desc": "Aesthetically perfect and highly engaging video & image series for Instagram, TikTok, and YouTube Shorts, in perfect harmony with your brand identity.",
+    "service5": "Digital Catalog Production",
+    "service5Desc": "Fast, consistent, and premium-quality digital catalog and lookbook shoots featuring AI-generated models for e-commerce and marketing needs."
+  },
+  "WhyUs": {
+    "title": "Why Sunai Studio?",
+    "subtitle": "We merge the deep aesthetic heritage of the fashion world with next-generation artificial intelligence technologies.",
+    "reason1": "Apple-Level Perfection",
+    "reason1Desc": "Adding prestige to your brand through a minimalist, clean, and stunning visual language.",
+    "reason2": "Infinite Concepts & Locations",
+    "reason2Desc": "The freedom to display your collection anywhere, from the streets of Paris to the glaciers of Iceland.",
+    "reason3": "Sustainable & Rapid",
+    "reason3Desc": "We reduce weeks of production, travel, and model shoots into days, optimizing your budget efficiency.",
+    "reason4": "Luxury Brand Sensitivity",
+    "reason4Desc": "We are deeply familiar with the visual standards and detail sensitivity of fashion, apparel, jewelry, and cosmetics industries."
+  },
+  "BeforeAfter": {
+    "title": "Creative Metamorphosis",
+    "subtitle": "The journey from raw studio captures or sketches to stunning, luxury campaign visuals generated via AI.",
+    "original": "Raw Capture / Sketch",
+    "enhanced": "Sunai AI Outcome"
+  },
+  "Process": {
+    "title": "Our Working Process",
+    "subtitle": "A 4-step journey from initial concept to high-resolution luxury campaign visuals.",
+    "step1": "01 / Concept Design",
+    "step1Desc": "We analyze your brand DNA and define the unique creative direction and mood boards for your collection.",
+    "step2": "02 / AI Production",
+    "step2Desc": "We bring raw captures or sketches to life with AI in high-resolution, set in the world's most prestigious virtual locations.",
+    "step3": "03 / Fine Retouching",
+    "step3Desc": "We perform pixel-level edits on lighting, color, and smooth textures with haute-couture precision.",
+    "step4": "04 / Premium Delivery",
+    "step4Desc": "We deliver production-ready Ultra HD files optimized for e-commerce, social media, print, and large billboards."
+  },
+  "Collaboration": {
+    "title": "Join the Future of Fashion Vision",
+    "subtitle": "Get in touch to bring your collection together with AI's luxury aesthetics and discover custom production solutions for your brand.",
+    "cta": "Initiate Collaboration",
+    "statsClients": "Global Brands",
+    "statsProjects": "AI Campaigns",
+    "statsExp": "Creative Experience"
+  },
+  "Contact": {
+    "title": "Contact & Booking",
+    "subtitle": "Let us design a bespoke campaign for your brand. Fill out the form below or reach us directly via WhatsApp.",
+    "name": "Your Name",
+    "brand": "Brand Name",
+    "email": "Email Address",
+    "message": "Tell us about your project",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Your message was sent successfully. We will get in touch with you shortly.",
+    "error": "Error sending message. Please try again.",
+    "whatsappCta": "Reach on WhatsApp"
+  },
+  "Footer": {
+    "rights": "All Rights Reserved.",
+    "studio": "sunai.studio",
+    "tagline": "Next-generation AI creative studio for luxury fashion brands.",
+    "contact": "Creative Contact",
+    "address": "Creative Hub: Istanbul / Paris",
+    "links": "Quick Links"
+  },
+  "Common": {
+    "lang": "Türkçe",
+    "langCode": "tr"
+  }
+}

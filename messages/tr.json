@@ -1,0 +1,108 @@
+{
+  "Brand": {
+    "name": "sunai.studio",
+    "description": "Lüks Moda ve Kreatif Markalar İçin Yapay Zekâ Destekli Görsel & Video Prodüksiyon Stüdyosu"
+  },
+  "Nav": {
+    "home": "Ana Sayfa",
+    "work": "Koleksiyonlar",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "cta": "Proje Başlat"
+  },
+  "Hero": {
+    "title": "Lüks Moda Markaları İçin Yapay Zekâ Görsel Prodüksiyonu",
+    "subtitle": "Kusursuz estetik, sınırsız mekân ve üst düzey kreatif vizyon. Kampanyalarınızı, kataloglarınızı ve ticari videolarınızı yapay zekânın gücüyle lüks standartlarda yeniden tanımlıyoruz.",
+    "cta": "Koleksiyonu Keşfet",
+    "badge": "YAPAY ZEKÂ KREATİF STÜDYOSU"
+  },
+  "Showcase": {
+    "title": "Seçkin Kampanyalar",
+    "subtitle": "Yapay zekânın kreatif dehası ile tasarlanan, dünya standartlarında moda ve ürün kampanyaları.",
+    "explore": "Detayları İncele",
+    "campaign1": "Sessiz Lüks - Sonbahar/Kış",
+    "campaign1Desc": "Minimalist ve sofistike detaylarla örülü bir moda hikayesi.",
+    "campaign2": "Altın Parıltısı - Yüksek Mücevher",
+    "campaign2Desc": "Işığın ve altının kusursuz dansını yansıtan makro çekimler.",
+    "campaign3": "Saf Kozmetik - Minimal Çizgiler",
+    "campaign3Desc": "Doğal tonlar ve pürüzsüz dokularla şekillenen ürün estetiği."
+  },
+  "Services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Markanızın prestijini en üst seviyeye taşıyacak dijital sanat ve prodüksiyon çözümleri.",
+    "service1": "AI Ürün Fotoğrafçılığı",
+    "service1Desc": "Kozmetik, mücevher ve hazır giyim ürünleriniz için stüdyo maliyeti olmadan, dünyanın en prestijli mekanlarında yüksek çözünürlüklü sanatsal çekimler.",
+    "service2": "AI Reklam Videoları",
+    "service2Desc": "Moda markaları için sinematik, akıcı ve büyüleyici video kampanyaları. Sosyal medya, web siteniz ve dijital billboardlar için özel formatlar.",
+    "service3": "AI Moda Kampanyaları",
+    "service3Desc": "Sezon koleksiyonlarınız için hayal gücünüzün sınırlarını aşan konseptlerde, lüks dergi editöryali kalitesinde editoryal kampanya çekimleri.",
+    "service4": "Sosyal Medya İçerikleri",
+    "service4Desc": "Instagram, TikTok ve YouTube Shorts için marka kimliğinizle mükemmel uyumlu, estetik açıdan kusursuz ve yüksek etkileşimli video & görsel serileri.",
+    "service5": "Dijital Katalog Üretimi",
+    "service5Desc": "E-ticaret ve lookbook ihtiyaçlarınız için yapay zekâ modelleriyle hızlı, tutarlı ve premium standartlarda dijital katalog çekimleri."
+  },
+  "WhyUs": {
+    "title": "Neden Sunai Studio?",
+    "subtitle": "Moda dünyasının köklü estetik anlayışını, yeni nesil yapay zekâ teknolojileriyle birleştiriyoruz.",
+    "reason1": "Apple Düzeyinde Kusursuzluk",
+    "reason1Desc": "Minimalist, temiz ve göz alıcı bir tasarım diliyle markanıza prestij katıyoruz.",
+    "reason2": "Sınırsız Konsept & Mekân",
+    "reason2Desc": "Paris sokaklarından İzlanda buzullarına kadar, koleksiyonunuzu dilediğiniz her yerde sergileme özgürlüğü.",
+    "reason3": "Sürdürülebilir & Hızlı",
+    "reason3Desc": "Haftalar süren prodüksiyon, seyahat ve model çekim süreçlerini günlere indirgiyor, bütçenizi optimize ediyoruz.",
+    "reason4": "Lüks Marka Hassasiyeti",
+    "reason4Desc": "Moda, tekstil, takı ve kozmetik sektörlerinin görsel standartlarını ve detay hassasiyetini çok iyi biliyoruz."
+  },
+  "BeforeAfter": {
+    "title": "Kreatif Dönüşüm",
+    "subtitle": "Ham stüdyo çekimlerinden veya eskizlerden, yapay zekâ ile üretilen büyüleyici ve lüks kampanya görsellerine giden yolculuk.",
+    "original": "Başlangıç / Eskiz",
+    "enhanced": "Sunai AI Sonuç"
+  },
+  "Process": {
+    "title": "Çalışma Sürecimiz",
+    "subtitle": "Fikir aşamasından yüksek çözünürlüklü lüks kampanya görseline giden 4 adımlı yolculuk.",
+    "step1": "01 / Konsept Tasarımı",
+    "step1Desc": "Markanızın DNA'sını analiz ediyor ve koleksiyonunuz için özel kreatif yönü ve hikaye panolarını belirliyoruz.",
+    "step2": "02 / AI Üretimi",
+    "step2Desc": "Ham çekimleri veya taslakları, yapay zeka ile dünyanın en prestijli sanal mekanlarında yüksek çözünürlüklü olarak canlandırıyoruz.",
+    "step3": "03 / Sanatsal Rötüş",
+    "step3Desc": "Işık, renk ve pürüzsüz dokular üzerinde haute-couture hassasiyetiyle piksel düzeyinde düzenlemeler yapıyoruz.",
+    "step4": "04 / Premium Teslimat",
+    "step4Desc": "E-ticaret, sosyal medya, basılı mecralar ve dev billboardlar için optimize edilmiş, yayına hazır ultra HD dosyaları teslim ediyoruz."
+  },
+  "Collaboration": {
+    "title": "Geleceğin Moda Vizyonuna Katılın",
+    "subtitle": "Koleksiyonunuzu yapay zekânın lüks estetiğiyle buluşturmak ve markanıza özel prodüksiyon çözümlerimizi keşfetmek için bizimle iletişime geçin.",
+    "cta": "İş Birliği Başlatın",
+    "statsClients": "Global Marka",
+    "statsProjects": "AI Kampanyası",
+    "statsExp": "Kreatif Tecrübe"
+  },
+  "Contact": {
+    "title": "İletişim & Rezervasyon",
+    "subtitle": "Markanız için özel bir kampanya tasarlayalım. Aşağıdaki formu doldurun veya doğrudan WhatsApp üzerinden bize ulaşın.",
+    "name": "Adınız & Soyadınız",
+    "brand": "Marka Adı",
+    "email": "E-posta Adresiniz",
+    "message": "Projenizden Bahsedin",
+    "submit": "Mesajı Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesajınız başarıyla iletildi. En kısa sürede sizinle iletişime geçeceğiz.",
+    "error": "Mesaj gönderilirken hata oluştu. Lütfen tekrar deneyin.",
+    "whatsappCta": "WhatsApp'tan Ulaşın"
+  },
+  "Footer": {
+    "rights": "Tüm Hakları Saklıdır.",
+    "studio": "sunai.studio",
+    "tagline": "Lüks moda markaları için gelecek nesil yapay zekâ kreatif stüdyosu.",
+    "contact": "Kreatif İletişim",
+    "address": "Kreatif Merkez: İstanbul / Paris",
+    "links": "Hızlı Erişim"
+  },
+  "Common": {
+    "lang": "English",
+    "langCode": "en"
+  }
+}

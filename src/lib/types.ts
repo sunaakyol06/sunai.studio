@@ -40,6 +40,7 @@ export interface SiteSettings {
     badge: { tr: string; en: string };
     mediaType: "video" | "image";
     mediaSrc: string;
+    mediaUrl?: string;
     mediaPoster?: string;
   };
   showcaseHeader: {
@@ -144,7 +145,8 @@ export function getDefaultSettings(): SiteSettings {
         en: "AI CREATIVE STUDIO"
       },
       mediaType: "image",
-      mediaSrc: "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=800&auto=format&fit=crop"
+      mediaSrc: "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=800&auto=format&fit=crop",
+      mediaUrl: "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=800&auto=format&fit=crop"
     },
     showcaseHeader: {
       title: {

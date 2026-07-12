@@ -99,10 +99,11 @@ export default async function IndexPage({
           </div>
 
           {/* Hero Premium Video or Image Mockup */}
-          <div className="lg:col-span-5 relative aspect-[3/4] rounded-xl2 overflow-hidden border border-line/40 shadow-kx-lg hidden lg:block">
+          <div className="lg:col-span-5 relative aspect-[3/4] rounded-xl2 overflow-hidden border border-line/40 shadow-kx-lg w-full max-w-lg mx-auto lg:mx-0">
             {settings.hero.mediaType === "video" ? (
               <video
-                src={settings.hero.mediaSrc}
+                key={settings.hero.mediaUrl || settings.hero.mediaSrc}
+                src={settings.hero.mediaUrl || settings.hero.mediaSrc}
                 poster={settings.hero.mediaPoster}
                 autoPlay
                 loop
@@ -112,7 +113,7 @@ export default async function IndexPage({
               />
             ) : (
               <Image
-                src={settings.hero.mediaSrc}
+                src={settings.hero.mediaUrl || settings.hero.mediaSrc}
                 alt={settings.hero.title}
                 fill
                 sizes="(max-w-md) 100vw, (max-w-lg) 50vw, 500px"

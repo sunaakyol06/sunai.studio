@@ -20,6 +20,7 @@ export interface MergedSettings {
     badge: string;
     mediaType: "video" | "image";
     mediaSrc: string;
+    mediaUrl: string;
     mediaPoster?: string;
   };
   showcaseHeader: {
@@ -106,7 +107,8 @@ export async function getMergedSettings(locale: string): Promise<MergedSettings>
       cta: settings.hero.cta[l] || settings.hero.cta.tr,
       badge: settings.hero.badge[l] || settings.hero.badge.tr,
       mediaType: settings.hero.mediaType,
-      mediaSrc: settings.hero.mediaSrc,
+      mediaSrc: settings.hero.mediaUrl || settings.hero.mediaSrc || "",
+      mediaUrl: settings.hero.mediaUrl || settings.hero.mediaSrc || "",
       mediaPoster: settings.hero.mediaPoster
     },
     showcaseHeader: {

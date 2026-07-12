@@ -329,11 +329,13 @@ export default function AdminEditor({ initialStore }: AdminEditorProps) {
     setUploading(true);
     try {
       const url = await uploadToCloudinary(file, "hero");
+      const detectedType = file.type.startsWith("video/") ? "video" : "image";
       updateSettings({
         hero: {
           ...settings.hero,
-          mediaType: type,
-          mediaSrc: url
+          mediaType: detectedType,
+          mediaSrc: url,
+          mediaUrl: url
         }
       });
       showToast("Hero medyası başarıyla güncellendi.", "success");
@@ -825,8 +827,19 @@ export default function AdminEditor({ initialStore }: AdminEditorProps) {
                         <label className="block text-[9px] font-mono uppercase text-stone mb-1">Medya Kaynağı (URL)</label>
                         <input
                           type="text"
-                          value={settings.hero.mediaSrc}
-                          onChange={(e) => updateSettings({ hero: { ...settings.hero, mediaSrc: e.target.value } })}
+                          value={settings.hero.mediaUrl || settings.hero.mediaSrc || ""}
+                          onChange={(e) => {
+                            const val = e.target.value;
+                            const isVideo = val.match(/\.(mp4|webm|ogg)$/i);
+                            updateSettings({
+                              hero: {
+                                ...settings.hero,
+                                mediaSrc: val,
+                                mediaUrl: val,
+                                mediaType: isVideo ? "video" : "image"
+                              }
+                            });
+                          }}
                           className="w-full bg-bone border border-line/50 rounded px-3 py-2 text-xs text-ink focus:outline-none"
                         />
                       </div>

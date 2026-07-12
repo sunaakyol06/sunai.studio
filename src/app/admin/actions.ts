@@ -33,10 +33,17 @@ export async function logout() {
 export async function persistStore(store: Store) {
   const authed = await isAuthed();
   if (!authed) {
-    return { error: "Yetkisiz işlem / Unauthorized action" };
+    return { error: "Yetkisiz işlem / Invalid password" };
   }
 
-  await saveStore(store);
-  revalidatePath("/", "layout");
-  return { success: true };
+  console.log("Saving store on server. settings.hero:", store.settings?.hero);
+
+  try {
+    await saveStore(store);
+    revalidatePath("/", "layout");
+    return { success: true };
+  } catch (err: any) {
+    console.error("persistStore error:", err);
+    return { error: err.message || "Kaydetme sırasında hata oluştu" };
+  }
 }

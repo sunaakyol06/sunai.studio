@@ -13,6 +13,7 @@ interface Sector {
   cover: string;
   accent: string;
   media: any[];
+  coverImage?: string;
 }
 
 interface SectorCardProps {
@@ -24,6 +25,12 @@ export default function SectorCard({ sector }: SectorCardProps) {
   const name = sector.name[locale];
   const tagline = sector.tagline[locale];
 
+  const coverUrl =
+    sector.coverImage ||
+    sector.media.find((m: any) => m.type === "image")?.src ||
+    sector.media[0]?.src ||
+    sector.cover;
+
   return (
     <Link
       href={`/calismalar/${sector.slug}`}
@@ -31,7 +38,7 @@ export default function SectorCard({ sector }: SectorCardProps) {
     >
       <div className="absolute inset-0 z-0">
         <Image
-          src={imageUrl(sector.cover, 1000)}
+          src={imageUrl(coverUrl, 1000)}
           alt={name}
           fill
           sizes="(max-w-7xl) 33vw, (max-w-md) 50vw, 100vw"

@@ -19,6 +19,7 @@ export interface Sector {
   cover: string;
   accent: string;
   media: MediaItem[];
+  coverImage?: string;
 }
 
 export const baseSectors: Sector[] = [
@@ -128,10 +129,25 @@ export const baseSectors: Sector[] = [
   }
 ];
 
-const typedUploads = uploadsData as Record<string, Omit<MediaItem, "id">[]>;
+const typedUploads = uploadsData as Record<
+  string,
+  { media?: Omit<MediaItem, "id">[]; coverImage?: string } | Omit<MediaItem, "id">[]
+>;
 
 export const sectors: Sector[] = baseSectors.map((sector) => {
-  const uploadedMedia = typedUploads[sector.slug] || [];
+  const uploadInfo = typedUploads[sector.slug];
+  let uploadedMedia: Omit<MediaItem, "id">[] = [];
+  let coverImage: string | undefined = undefined;
+
+  if (uploadInfo) {
+    if (Array.isArray(uploadInfo)) {
+      uploadedMedia = uploadInfo;
+    } else {
+      uploadedMedia = uploadInfo.media || [];
+      coverImage = uploadInfo.coverImage;
+    }
+  }
+
   const mergedMedia = [...sector.media];
   
   uploadedMedia.forEach((item, index) => {
@@ -150,6 +166,7 @@ export const sectors: Sector[] = baseSectors.map((sector) => {
   return {
     ...sector,
     media: mergedMedia,
+    coverImage,
   };
 });
 

@@ -12,6 +12,7 @@ export interface SectorOverride {
   hidden: string[];
   titles?: Record<string, string>;
   added?: AddedMedia[];
+  coverImage?: string;
 }
 
 export interface CustomSector {

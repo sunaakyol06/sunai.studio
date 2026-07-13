@@ -232,7 +232,8 @@ export async function getDisplaySectors(): Promise<Sector[]> {
 
     return {
       ...sector,
-      media: finalizedMedia
+      media: finalizedMedia,
+      coverImage: override.coverImage || sector.coverImage
     };
   });
 }

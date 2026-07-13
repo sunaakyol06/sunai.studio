@@ -59,7 +59,7 @@ export default function AdminEditor({ initialStore }: AdminEditorProps) {
     });
   };
 
-  const sectorsList = [
+  const sectorsList: Sector[] = [
     ...baseSectors,
     ...store.custom.map((cs) => ({
       slug: cs.slug,
@@ -67,7 +67,8 @@ export default function AdminEditor({ initialStore }: AdminEditorProps) {
       tagline: { tr: cs.tagline, en: cs.tagline },
       cover: cs.cover,
       accent: cs.accent,
-      media: [] as MediaItem[]
+      media: [] as MediaItem[],
+      coverImage: undefined
     }))
   ];
 
@@ -1918,6 +1919,80 @@ export default function AdminEditor({ initialStore }: AdminEditorProps) {
                 <p className="font-sans text-stone text-sm">
                   {activeSector.tagline.tr}
                 </p>
+              </div>
+
+              {/* Kapak Görseli Yükleme Alanı (Premium / coverImage) */}
+              <div className="bg-cream/45 border border-line/35 p-6 rounded-xl2 space-y-4">
+                <h3 className="font-mono text-xs uppercase tracking-widest text-ink font-bold border-b border-line/30 pb-2">
+                  Kapak Görseli / Cover Image
+                </h3>
+                <div className="flex flex-col sm:flex-row gap-6 items-start">
+                  <div className="relative w-40 h-28 rounded-lg overflow-hidden border border-line/50 bg-bone flex-shrink-0 shadow-inner">
+                    <img
+                      src={activeOverride.coverImage || activeSector.coverImage || activeSector.media.find((m: any) => m.type === "image")?.src || activeSector.cover}
+                      alt="Cover Preview"
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    />
+                    {activeOverride.coverImage ? (
+                      <span className="absolute top-2 left-2 bg-brass text-ink font-mono text-[8px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider shadow">
+                        Özel Kapak
+                      </span>
+                    ) : (
+                      <span className="absolute top-2 left-2 bg-stone/75 text-bone font-mono text-[8px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider shadow">
+                        Varsayılan
+                      </span>
+                    )}
+                  </div>
+                  <div className="space-y-3 flex-grow">
+                    <p className="font-sans text-stone text-xs leading-relaxed">
+                      Bu kategori/koleksiyon için özel bir kapak görseli yükleyin. Yüklenmezse galeri içerisindeki ilk görsel otomatik olarak kapak resmi olarak kullanılmaya devam eder.
+                    </p>
+                    <div className="flex flex-wrap gap-3 items-center">
+                      <input
+                        type="file"
+                        id="cover-image-uploader"
+                        accept="image/*"
+                        disabled={uploading}
+                        onChange={async (e) => {
+                          const file = e.target.files?.[0];
+                          if (!file) return;
+                          setUploading(true);
+                          try {
+                            const url = await uploadToCloudinary(file, `covers/${activeSectorSlug}`);
+                            updateOverride(activeSectorSlug, { coverImage: url });
+                            showToast("Kapak görseli başarıyla yüklendi.", "success");
+                          } catch (err: any) {
+                            console.error(err);
+                            showToast(err.message || "Kapak görseli yüklenirken hata oluştu.", "error");
+                          } finally {
+                            setUploading(false);
+                            e.target.value = "";
+                          }
+                        }}
+                        className="hidden"
+                      />
+                      <label
+                        htmlFor="cover-image-uploader"
+                        className="inline-flex items-center gap-2 bg-ink text-bone hover:bg-ink-soft text-[10px] font-sans uppercase tracking-widest font-bold px-4 py-2.5 rounded cursor-pointer transition-all duration-200 hover:-translate-y-0.5 shadow-sm active:translate-y-0"
+                      >
+                        <Upload size={12} className="w-3 h-3" />
+                        <span>Kapak Görseli Yükle</span>
+                      </label>
+                      {activeOverride.coverImage && (
+                        <button
+                          onClick={() => {
+                            updateOverride(activeSectorSlug, { coverImage: undefined });
+                            showToast("Kapak görseli kaldırıldı.", "success");
+                          }}
+                          className="inline-flex items-center gap-2 bg-clay/10 text-clay hover:bg-clay/20 text-[10px] font-sans uppercase tracking-widest font-bold px-4 py-2.5 rounded cursor-pointer transition-all duration-200 hover:-translate-y-0.5 shadow-sm active:translate-y-0"
+                        >
+                          <Trash2 size={12} className="w-3 h-3" />
+                          <span>Kaldır</span>
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </div>
               </div>
 
               {/* Media Upload Options */}

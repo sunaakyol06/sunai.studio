@@ -93,6 +93,33 @@ export async function saveStore(store: Store): Promise<void> {
 
   console.log("Saving store. settings.hero:", normalizedStore.settings?.hero);
 
+  // Synchronize uploads.json with custom cover image and uploaded media
+  try {
+    const uploadsFilePath = path.join(process.cwd(), "src/data/uploads.json");
+    const uploadsJson: Record<string, { media: any[]; coverImage?: string }> = {};
+
+    for (const slug of Object.keys(normalizedStore.overrides)) {
+      const override = normalizedStore.overrides[slug];
+      if (override.added?.length || override.coverImage) {
+        uploadsJson[slug] = {
+          media: (override.added || []).map(m => ({
+            type: m.type,
+            src: m.src,
+            poster: m.poster,
+            ratio: m.ratio,
+            title: m.title
+          })),
+          coverImage: override.coverImage
+        };
+      }
+    }
+
+    fs.writeFileSync(uploadsFilePath, JSON.stringify(uploadsJson, null, 2), "utf8");
+    console.log("Successfully synchronized uploads.json");
+  } catch (err) {
+    console.error("Failed to write uploads.json:", err);
+  }
+
   if (url && token) {
     try {
       const res = await fetch(`${url}/set/${STORE_KEY}`, {
